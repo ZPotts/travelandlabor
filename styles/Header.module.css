@@ -1,0 +1,28 @@
+.headerLayout {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.headerWrapper {
+    border: var(--testing-border);
+    align-items: center;
+    display: flex;
+}
+
+.logoWrapper {
+    flex: 1 0 60%;
+    text-align: left;
+    border: var(--testing-border);
+}
+
+.logo {
+    font-family: var(--font-fam-oswald);
+    font-size: var(--font-size-xxxxl);
+    font-weight: var(--font-weight-bold);
+}
+
+.catsWrapper {
+    flex: 1 0 40%;
+    text-align: left;
+    border: var(--testing-border); 
+}

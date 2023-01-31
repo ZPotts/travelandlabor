@@ -1,9 +1,11 @@
 
 function Footer(){
     return(
-        <footer data-testid="footer">
-            Footer Component
-        </footer>
+        <div className="layoutContainer">
+            <footer data-testid="footer">
+                <p>Footer Component</p>
+            </footer>
+        </div>
     )
 }
 

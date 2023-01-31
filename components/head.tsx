@@ -1,10 +1,11 @@
+import Head from 'next/head'
 
 function Head(){
     return(
-        <head>
-            <title>Travel &amp; Labor</title>
+        <Head>
+            <title>Travel and Labor</title>
             <link rel="icon" href="/favicon.ico" />
-        </head>
+        </Head>
     )
 };
 
