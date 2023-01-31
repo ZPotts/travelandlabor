@@ -1,0 +1,17 @@
+.homeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
+    width: 100%;
+    padding: 0;
+}
+
+.homePromoBlock {
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    width: 100%;
+}

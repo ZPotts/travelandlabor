@@ -1,17 +1,18 @@
-import Head from 'next/head'
-import Image from 'next/image'
-
+import styles from '@/styles/modules/Home.module.css';
 
 export default function Home() {
   return (
-    <div>
-  
+    <div className="layoutContainer testingBorder">
       <main>
-        <h1>
-          Welcome to the future home of Travel x Labor
-        </h1>
+        <div className={styles.homeGrid}>
+          <div className={styles.homePromoBlock}>Block 1</div>
+          <div className={styles.homePromoBlock}>Block 2</div>
+          <div className={styles.homePromoBlock}>Block 3</div>
+          <div className={styles.homePromoBlock}>Block 1</div>
+          <div className={styles.homePromoBlock}>Block 2</div>
+          <div className={styles.homePromoBlock}>Block 3</div>
+        </div>
       </main>
-
     </div>
   )
 }
