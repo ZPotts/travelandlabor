@@ -2,7 +2,7 @@
 
 /* ##### VARS ##### */
 body {
-  --testing-border: solid 1px rgb(255, 87, 51);
+  --test-border: solid 1px rgb(255, 87, 51);
 
   --font-fam-oswald: 'Oswald', sans-serif;
   --font-fam-serif: 'Libre Caslon', serif;

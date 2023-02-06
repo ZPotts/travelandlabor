@@ -1,6 +1,6 @@
 
 .headerWrapper {
-    border: var(--testing-border);
+    border: var(--test-border);
     align-items: center;
     display: flex;
 }
@@ -8,7 +8,7 @@
 .logoWrapper {
     flex: 1 0 40%;
     text-align: left;
-    border: var(--testing-border);
+    border: var(--test-border);
 }
 
 .logo {
@@ -20,5 +20,5 @@
 .catsWrapper {
     flex: 1 0 60%;
     text-align: left;
-    border: var(--testing-border); 
+    border: var(--test-border); 
 }
