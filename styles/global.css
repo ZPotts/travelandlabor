@@ -4,18 +4,24 @@
 body {
   --test-border: solid 1px rgb(255, 87, 51);
 
+  /* ##### FONTS ##### */
   --font-fam-oswald: 'Oswald', sans-serif;
   --font-fam-serif: 'Libre Caslon', serif;
   --font-fam-typewriter: 'Courier Prime', monospace;
   --font-weight-bold: 700;
 
-  --font-size-reg: 1.0rem;
+  --font-size-reg: 1.1rem;
   --font-size-lg: 1.125rem; 
   --font-size-xl: 1.375rem;
   --font-size-xxl: 1.5rem;
   --font-size-xxxl: 2.0rem;
   --font-size-xxxxl: 2.5rem;
-  
+
+  /* SPACERS, SHIMS AND THINGS OF THAT NATURE */
+  --spacer-base: 1rem;
+  --spacer-half: calc(var(--spacer-base) * 0.45);
+  --spacer-reg: var(--spacer-base);
+  --spacer-lg: calc(var(--spacer-base) * 3.0);
 }
 
 html,
